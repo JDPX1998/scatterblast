@@ -32,4 +32,14 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Level Select Menu");
     }
+
+    public void LoadGameRules()
+    {
+        SceneManager.LoadScene("Game Rules Menu");
+    }
+
+    public void LoadControlsMenu()
+    {
+        SceneManager.LoadScene("Controls Menu");
+    }
 }
