@@ -651,7 +651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223, y: -102.000015}
+  m_AnchoredPosition: {x: -223, y: -151}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1056636925
@@ -1213,7 +1213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223, y: -190.00002}
+  m_AnchoredPosition: {x: -223, y: -239.00002}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865988335
@@ -1373,9 +1373,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The player must complete the level by getting the high score by hitting
-    all targets within a time limit. \n\nThe player will only have a certain amount
-    of ammo and reloads per level. \n\n"
+  m_text: "The player must complete the level by reaching the high score by hitting
+    all targets within a time limit in each level with the final level being level
+    4. \n\nThe player will only have a certain amount of ammo and reloads per level
+    with the amount getting lower with each level. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8e54551ef8d1e6c429ea2a3479660bc6, type: 2}
   m_sharedMaterial: {fileID: -4280257258045091843, guid: 8e54551ef8d1e6c429ea2a3479660bc6, type: 2}

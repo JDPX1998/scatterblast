@@ -42,4 +42,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Controls Menu");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
