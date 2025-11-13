@@ -687,11 +687,11 @@ Transform:
   m_GameObject: {fileID: 1298733958}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6329618, y: -0, z: -0, w: 0.7741831}
-  m_LocalPosition: {x: 0.608, y: 0.769, z: -6.269}
-  m_LocalScale: {x: 0.36549273, y: 0.36549273, z: 0.36549273}
+  m_LocalPosition: {x: 0.60262173, y: 0.08348008, z: 0.4147914}
+  m_LocalScale: {x: 0.47674, y: 0.47674, z: 0.47674}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1908418787}
   m_LocalEulerAnglesHint: {x: 78.538, y: 0, z: 0}
 --- !u!1 &1514444635
 GameObject:
@@ -906,11 +906,11 @@ Transform:
   m_GameObject: {fileID: 1732397003}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6329618, y: -0, z: -0, w: 0.7741831}
-  m_LocalPosition: {x: -0.289, y: 0.769, z: -6.269}
-  m_LocalScale: {x: 0.36549273, y: 0.36549273, z: 0.36549273}
+  m_LocalPosition: {x: -0.5674036, y: 0.08348008, z: 0.4147914}
+  m_LocalScale: {x: 0.47674, y: 0.47674, z: 0.47674}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1908418787}
   m_LocalEulerAnglesHint: {x: 78.538, y: 0, z: 0}
 --- !u!1 &1908418783
 GameObject:
@@ -924,6 +924,7 @@ GameObject:
   - component: {fileID: 1908418786}
   - component: {fileID: 1908418785}
   - component: {fileID: 1908418784}
+  - component: {fileID: 1908418788}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1019,9 +1020,26 @@ Transform:
   m_LocalPosition: {x: 0.146, y: 0.705, z: -6.587}
   m_LocalScale: {x: 0.76665, y: 0.76665, z: 0.76665}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1298733962}
+  - {fileID: 1732397007}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1908418788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908418783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9335a4a0b85094dbf224587daabcc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerXMovement: 0
+  playerYMovement: 0
+  playerSpeed: 10
 --- !u!1 &2069708386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,5 +1172,3 @@ SceneRoots:
   - {fileID: 1514444639}
   - {fileID: 552240318}
   - {fileID: 1908418787}
-  - {fileID: 1298733962}
-  - {fileID: 1732397007}
