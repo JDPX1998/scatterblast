@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 516632411160953325, guid: 8cccb3f1fdd25c748b2d8dda4fe6fe5d, type: 3}
   bulletPosition: {fileID: 1362878312}
-  bulletSpeed: 300
+  bulletSpeed: 350
 --- !u!1 &2069708386
 GameObject:
   m_ObjectHideFlags: 0
